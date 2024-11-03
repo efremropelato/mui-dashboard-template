@@ -183,7 +183,7 @@ export const getDesignTokens = (mode: PaletteMode) => {
       },
     },
     typography: {
-      fontFamily: ['"Inter", "sans-serif"'].join(','),
+      fontFamily: ['"Jura","Inter", "sans-serif"'].join(','),
       h1: {
         fontSize: defaultTheme.typography.pxToRem(48),
         fontWeight: 600,
@@ -214,21 +214,23 @@ export const getDesignTokens = (mode: PaletteMode) => {
       },
       subtitle1: {
         fontSize: defaultTheme.typography.pxToRem(18),
+        fontWeight: 500,
       },
       subtitle2: {
         fontSize: defaultTheme.typography.pxToRem(14),
-        fontWeight: 500,
+        fontWeight: 400,
       },
       body1: {
         fontSize: defaultTheme.typography.pxToRem(14),
+        fontWeight: 400,
       },
       body2: {
         fontSize: defaultTheme.typography.pxToRem(14),
-        fontWeight: 400,
+        fontWeight: 300,
       },
       caption: {
         fontSize: defaultTheme.typography.pxToRem(12),
-        fontWeight: 400,
+        fontWeight: 300,
       },
     },
     shape: {
@@ -341,7 +343,7 @@ export const colorSchemes = {
 };
 
 export const typography = {
-  fontFamily: ['"Inter", "sans-serif"'].join(','),
+  fontFamily: ['"Jura","Inter", "sans-serif"'].join(','),
   h1: {
     fontSize: defaultTheme.typography.pxToRem(48),
     fontWeight: 600,
