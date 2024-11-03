@@ -13,7 +13,7 @@ import DevicesRoundedIcon from '@mui/icons-material/DevicesRounded';
 import SmartphoneRoundedIcon from '@mui/icons-material/SmartphoneRounded';
 import ConstructionRoundedIcon from '@mui/icons-material/ConstructionRounded';
 
-const Avatar = styled(MuiAvatar)(({ theme }) => ({
+const Avatar = styled(MuiAvatar)(({ theme }:any) => ({
   width: 28,
   height: 28,
   backgroundColor: (theme.vars || theme).palette.background.paper,

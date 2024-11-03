@@ -56,7 +56,7 @@ interface StyledTextProps {
 
 const StyledText = styled('text', {
   shouldForwardProp: (prop) => prop !== 'variant',
-})<StyledTextProps>(({ theme }) => ({
+})<StyledTextProps>(({ theme }:any) => ({
   textAnchor: 'middle',
   dominantBaseline: 'central',
   fill: (theme.vars || theme).palette.text.secondary,
